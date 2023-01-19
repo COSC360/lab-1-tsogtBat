@@ -1,24 +1,77 @@
 <!DOCTYPE html>
-<html>
+ <html>
+    <style>   
+        #Q {
+            border-bottom: 2px solid black;
+            }
+        #W{
+            border-right: 5px solid black;
+
+        }
+    </style>
 
 
+<header>
     <h1>COSC 360</h1>
     <h2>Lab 1 - HTML</h2>
-
-
     <nav>
         <ul>
-            <li><a href=#Description> Description </a></li>
-            <li><a href="#Related Photos"> Related Photos </a></li>
-            <li><a href="Reviews"> Reviews </a></li>
-        </ul>
+             <li><a href=#Description> Description </a></li>
+             <li><a href="#Related Photos"> Related Photos </a></li>
+             <li><a href="#Reviews"> Reviews </a></li>
+         </ul>
     </nav>
+</header>
 
 
+
+<section id="Description">
     <h3>Description</h3>
-    <a href="images/eiskristalle-1938842_640.jgp">
-        <img src="images/eiskristalle-1938842_640.jgp"></img>
-    </a>    
+        <p>Photo by Myriams-Fotos</p>
+        <p>this photo of ice crystals on a branch. this image is from <a href="https://www.pixabay.com">pixabay</a> and was taken with a Canon EOS 650D camera.</p>
+        <a href="images/eiskristalle-1938842_640.jpg">
+            <img src="images/eiskristalle-1938842_640.jpg"></img>
+        </a>
+    <figcaption><em>Ice crystals on a branch</em></figcaption>
+</section>
+
+    <p>Share
+        <img src="images/social/email_16.png" alt="Email this to someone">
+        <img src="images/social/rss_16.png" alt="Syndicated content">
+        <img src="images/social/twitter_16.png" alt="Share this one twitter">
+        <img src="images/social/facebook_16.png" alt="Share this on facebook">
+        <img src="images/social/flickr_16.png" alt="See this on flikr">
+    </p>
+
+    <section id="Related Photos">
+        <h3>Related Photos</h3>
+        <div>
+            <a href="images/frost-490807_640.jpg"><img src="images/frost-490807_640.jpg" alt="related photo" height="100px"></a>
+            <a href="images/hoarfrost-639980_640.jpg"><img src="images/hoarfrost-639980_640.jpg" alt="related photo" height="100px"></a>
+            <a href="images/ice-crystal-64157_640.jpg"><img src="images/ice-crystal-64157_640.jpg" alt="related photo"height="100px"></a>
+        </div>
+    </section>
 
 
+
+    <section id="Reviews">
+        <h3>Reviews</h3>
+        <div><p>By Bob on<time datetime="2017-1-11"> January 11, 2017</time></p>
+            <p id="Q">Those are some nice ice photos.</p>
+        </div>
+        <div><p>By Alice on <time datetime="2016-8-1"> October 1, 2016</time></p>
+            <p id="Q">Beautiful Photos.</p>
+        </div>
+    </section>
+
+<footer>
+    <p>
+        <a href="#">Home </a> |
+        
+        <a href="#"> Browse   </a> |
+        
+        <a href="#"> Search</a>
+    
+    </p>
+<</footer>
 </html>
